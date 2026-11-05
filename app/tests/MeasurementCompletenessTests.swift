@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 测量完整性：全部用真实生成的临时目录树，不手工拼 complete 字典。
 // 覆盖：完整/嵌套、不可读兄弟、符号链接不跟随、硬链接口径、取消、旧记录失效、同批 proof 复用。
 import Darwin

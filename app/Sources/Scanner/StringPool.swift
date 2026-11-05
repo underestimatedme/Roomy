@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 /// Stores each distinct UTF-8 file name once. IDs remain stable for the life of a scan.

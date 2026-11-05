@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 报告的"结论"：各档大小（拆成可找回 / 找不回）、只清 A 后和清 A+B 后的可用空间。
 // 与网页端 cleanup-core.js 的 reportSummary 同一套口径：
 //   · 嵌套路径只算一次，归外层那一行的档位；各档相加 = 总量

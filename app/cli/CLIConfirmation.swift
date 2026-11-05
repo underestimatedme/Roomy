@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 /// `clean --apply` 的确认序列。读取输入和判断终端都由调用方注入，方便测试。

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // "按文件夹看"的节点：把清理扫描顺手走出来的目录大小（dirs）按层展开，并标出哪些节点对应清单里的条目。
 // 只读展示用的数据；能不能选中完全由清单条目决定，没有条目的目录一律不可选。
 

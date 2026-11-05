@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 /// A user's (manual) or Roomy's (learned) decision to show a category in another tier.

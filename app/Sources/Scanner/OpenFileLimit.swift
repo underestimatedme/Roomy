@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 从 Finder / Dock 打开的 App 默认只能同时打开 256 个文件，终端里通常是 1048576。
 // 扫描时并发遍历目录、同时启动多个 git，256 很快用完，子命令启动失败后各项检查只能按最保守处理。
 // 所以 App、后台调度和命令行在启动时都先把软上限调高（不超过硬上限，已经更高时不动）。

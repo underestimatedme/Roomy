@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 /// Compact scan-owned tree. Entry IDs are array indexes and remain stable until a subtree patch.

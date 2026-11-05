@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 深度目录统计按需执行：清单发出去之后不再无条件把整个家目录和系统区域走一遍。
 // 只有两个入口会请求一次 ——「按文件夹看」和「更新空间分析」；同一代扫描里两个入口共用同一个任务，
 // 结果给 folders / overview / growth 三处使用，不重复深度 walk。

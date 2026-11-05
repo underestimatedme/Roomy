@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // "空间去向"：数据卷已用的空间落在哪几个顶层区域，以及有多少没能归到任何区域（读不了的、系统管的）。
 // 只给报告用，纯展示，不能据此清理。
 

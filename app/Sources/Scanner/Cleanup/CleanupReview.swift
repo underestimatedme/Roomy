@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 /// A read-only snapshot, never an executable plan imported from a document or AI.

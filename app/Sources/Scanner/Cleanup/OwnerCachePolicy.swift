@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 按"谁管这块缓存"定档：包管理器自己管的整块缓存交给官方命令清空（A 档），
 // Xcode / Gradle 的标准缓存进废纸篓（A 档，所有者在运行就进"不能删"）。
 // 工具找不到或说不清缓存在哪，就降到 C、只给废纸篓。

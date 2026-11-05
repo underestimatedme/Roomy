@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SPDX-License-Identifier: MPL-2.0
+# SPDX-License-Identifier: GPL-3.0-only
 """Run all headless suites, retain failures, and report the actual host.
 
 Only generated temporary samples are moved/deleted by the tests. DialogTests

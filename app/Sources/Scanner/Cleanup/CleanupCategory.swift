@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 清单分组：类别（这是什么）→ 规则组（同一条规则的多项合成一行）→ 条目。
 // 规则名 / 探测来源 → 类别的对应集中在这里。
 

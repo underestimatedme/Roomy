@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // "Roomy 还看不懂的大目录"：从上往下统计目录大小，扣掉清单已覆盖的和规则认识但有意不动的，
 // 剩下仍然很大的目录列出来——只展示、不能清理，也是下一批该写什么规则的依据。
 

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 项目里的构建产物 / 依赖目录（node_modules、.venv、target、工作空间构建目录）：
 // - 含有被 Git 跟踪的文件（提交过的 dist、被强制加入的文件、vendored 依赖）→ 不能删；
 // - 被 .gitignore 忽略、没有被跟踪的文件 → B（可选清），废纸篓动作；项目和产物都 staleDays 天以上没动过 → A（放心清）；

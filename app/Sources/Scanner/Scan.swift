@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 跑规则库，产出与 scanner/roomy-scan.py 相同结构的报告。
 // 实测结论（16GB / maxvnodes 250k / 600k 条目）：整套规则 10.5s，同机 du 单个 ~/Library/Developer 要 17.5s，
 // find 同批根 32s+。vnode 缓存装不下这棵树，每次都在读盘，这是内核下限不是代码问题。

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 /// 详情里展开一项：直接子项按大小排、超出的合成一行；文件、链接、不存在的路径不展开

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 官方整体清理命令：让包管理器自己清空它管理的整个缓存。执行前再问一次工具"缓存在哪"，
 // 和用户预览时的范围对不上就不动手。
 

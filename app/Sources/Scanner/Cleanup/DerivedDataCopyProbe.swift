@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // xcodebuild -derivedDataPath 指到标准位置之外的构建缓存（info.plist + ModuleCache.noindex + Build 或 Index.noindex）。
 // 项目旁边的由 WorkspaceArtifacts 管；这里只看 ~/.local/share、~/.cache 这类工具数据目录。下次构建会重新生成：
 // 最近还在构建进 B，30 天没构建进 A；Xcode 或 xcodebuild 在运行时由 RunningOwners 锁定。

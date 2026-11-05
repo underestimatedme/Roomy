@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 已卸载应用留下的数据。"装没装"问 Spotlight（全盘所有 .app）、正在运行的进程和命令行工具；
 // 名字对不上不等于卸载了（中文目录名、厂商目录、命令行工具），所以只列很久没动过的，永远不默认勾选。
 // 不扫 Containers / Group Containers：新版 macOS 读它们会弹"访问其他应用的数据"，且多属仍安装的沙盒应用。

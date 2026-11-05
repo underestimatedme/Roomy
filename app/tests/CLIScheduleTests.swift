@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 private func scheduleExpect(_ value: Bool, _ message: String = "expectation failed") { precondition(value, message) }

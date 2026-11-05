@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SPDX-License-Identifier: MPL-2.0
+# SPDX-License-Identifier: GPL-3.0-only
 """Create matching free CLI/source archives without GUI or machine data."""
 import argparse
 import hashlib
@@ -24,7 +24,7 @@ def source_files():
             for candidate in [Path(base), *[Path(base) / name for name in directories + names]]:
                 if candidate.is_symlink():
                     raise ValueError("symbolic link not allowed in distribution: " + str(candidate.relative_to(ROOT)))
-    files = [".github/workflows/core-reliability.yml", "LICENSE", "LICENSES/MPL-2.0.txt", "docs/cli.md", "docs/licensing.md", "docs/core-readme.md",
+    files = [".github/workflows/core-reliability.yml", "LICENSE", "LICENSES/GPL-3.0-only.txt", "docs/cli.md", "docs/licensing.md", "docs/core-readme.md",
              "app/tools/build-cli.sh", "app/tools/install-cli.sh", "app/tools/package-cli.py",
              "app/tools/make-scan-fixture.swift", "app/tests/run-reliability.py",
              "app/tests/reliability-harness-test.py", "app/tests/cli-integration-test.py",
@@ -100,13 +100,13 @@ def main():
                   "No GUI purchase or activation is required.\n"
                   "Install: bash install.sh [--prefix DIRECTORY] [--replace]\n"
                   "Use: ./roomy --help\n"
-                  "Core and CLI: MPL-2.0. Matching source: " + source_name + "\n"
+                  "Core and CLI: GPL-3.0-only. Matching source: " + source_name + "\n"
                   "Source archive is supplied alongside this binary release.\n"
                   "Current build uses development ad-hoc signing; no notarization.\n").encode()
         binary_entries = [("roomy", binary, 0o755), ("install.sh", read_file("app/tools/install-cli.sh"), 0o755),
                           ("README.txt", notice, 0o644), ("docs/cli.md", read_file("docs/cli.md"), 0o644),
                           ("LICENSE", read_file("LICENSE"), 0o644),
-                          ("LICENSES/MPL-2.0.txt", read_file("LICENSES/MPL-2.0.txt"), 0o644),
+                          ("LICENSES/GPL-3.0-only.txt", read_file("LICENSES/GPL-3.0-only.txt"), 0o644),
                           ("docs/licensing.md", read_file("docs/licensing.md"), 0o644)]
         entries.append(("README.md", read_file("docs/core-readme.md"), 0o644))
         destination.mkdir()  # Exclusive creation; no overwrite or recursive deletion.
@@ -115,7 +115,7 @@ def main():
         artifacts = [{"file": name, "sha256": hashlib.sha256((destination / name).read_bytes()).hexdigest()}
                      for name in [source_name, binary_name]]
         manifest = {"schemaVersion": 1, "version": version, "architecture": arch, "minimumMacOS": "14.0",
-                    "cliPrice": "free", "sourceLicense": "MPL-2.0", "signing": "development-ad-hoc",
+                    "cliPrice": "free", "sourceLicense": "GPL-3.0-only", "signing": "development-ad-hoc",
                     "notarized": False, "artifacts": artifacts}
         (destination / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
         (destination / "SHA256SUMS").write_text("".join(item["sha256"] + "  " + item["file"] + "\n" for item in artifacts))

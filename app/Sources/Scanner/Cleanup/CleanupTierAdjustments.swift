@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 /// Presentation of tier overrides for the settings page and the CLI. Pure formatting: it never changes a tier.

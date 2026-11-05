@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 /// `roomy clean` 预览的六段报告：结论、空间去向、读不到的空间、分档清单、健康提醒、清理顺序。

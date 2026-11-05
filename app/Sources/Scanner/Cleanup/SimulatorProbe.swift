@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 模拟器归 simctl 管：名称、上次使用时间、大小都问它，删也让它删。
 // 注意：~/Library/Developer/CoreDevice/DeviceFS 是 CoreDevice 的 FSKit 虚拟挂载（mount 里是 devicefs），
 // 里面看到的"大小"是设备数据的视图，不占 Mac 磁盘，绝不能当残留去删。

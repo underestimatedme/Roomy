@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 private func makeCached(volume: UUID, eventID: UInt64, fileName: String) -> CachedScan {

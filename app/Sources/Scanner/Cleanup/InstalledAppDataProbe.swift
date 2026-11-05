@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 已安装应用的缓存、日志、自动更新下载的安装包，以及 IDE（JetBrains、Android Studio）按版本存放的缓存与日志。
 // 只认能对上某个已安装应用的目录：对不上的归 AppLeftoverProbe（卸载残留）。Apple 自带应用和 Roomy 自己不碰；
 // 应用在运行就锁定。一律移到废纸篓，可找回。不进后台自动清理：那边只认 ApplicationCacheProbe 的"应用可重建缓存"。

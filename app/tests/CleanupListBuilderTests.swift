@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 private func item(_ path: String, rule: String, size: UInt64, risk: Risk = .green, name: String? = nil,

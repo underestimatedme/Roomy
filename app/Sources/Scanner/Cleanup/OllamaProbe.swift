@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // Ollama 的模型由它自己的清单库管理；删 blob 不删 manifest 会弄脏它，所以只走 ollama rm。
 
 import Foundation

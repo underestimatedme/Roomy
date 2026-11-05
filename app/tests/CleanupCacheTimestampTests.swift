@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 /// 纯 fixture：只验证首屏缓存的 scannedAt 不会被后续报告字段刷新；不扫描 HOME，不读写真实用户目录。

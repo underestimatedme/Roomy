@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // ~/.gradle/wrapper/dists 里没有任何项目引用的 Gradle 发行版：gradlew 需要时会自己重新下载，进 A。
 // 引用关系来自代码目录下各项目的 gradle/wrapper/gradle-wrapper.properties 的 distributionUrl。
 

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 标准位置之外的另一份 Android SDK（同时含 platform-tools、build-tools、platforms）。
 // 先查谁还指着它：项目的 local.properties（sdk.dir）、shell 启动文件、后台服务的 plist、模拟器配置。
 // 都没有就进 A（需要时用 sdkmanager 重新安装）；有引用或没查完进 C，并写明是谁。

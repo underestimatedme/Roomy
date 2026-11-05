@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 最近一次完整遍历的结果，供"按文件夹看"读取。每次扫描开始时清空并登记这一代；
 // 只有这一代的遍历结果能存进来，旧一代晚到的会被丢掉。没有结果时调用方回复 pending。
 

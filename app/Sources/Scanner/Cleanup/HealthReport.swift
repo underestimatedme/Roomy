@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 健康提醒：只读的发现，不是清理项。交换空间、失效的 Docker 上下文、反复失败的后台服务、本地快照。
 // 任一命令失败或超时，对应那一项直接省略；这里没有任何命令会修改系统。
 // command 只是给用户看的建议，由用户自己决定是否在终端里执行，Roomy 不会运行它。

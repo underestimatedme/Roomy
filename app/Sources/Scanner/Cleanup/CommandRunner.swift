@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 外部命令的唯一出口。直接 exec 绝对路径，不经过 shell，参数原样传给子进程。
 
 import Foundation

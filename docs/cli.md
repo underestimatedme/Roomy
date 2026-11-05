@@ -2,7 +2,7 @@
 
 `roomy` 是腾地儿的独立原生命令行工具，复用图形界面的扫描、占用分析、应用关联、保护与恢复能力。支持 macOS 14 及以上；构建时自动选择本机 Apple Silicon 或 Intel 架构。
 
-完整 CLI 免费，核心和 CLI 采用 MPL-2.0，不需要购买图形应用或联网激活。
+完整 CLI 免费，核心和 CLI 采用 GPL-3.0-only，不需要购买图形应用或联网激活。
 
 命令一览：`scan`、`disk`、`apps`、`preview`、`clean`、`uninstall`、`history`、`restore`、`protect`、`tier`、`permissions`、`growth`、`schedule`、`version`。不提供应用更新、启动项目和项目归档命令，图形应用里也没有这些功能。
 GUI 与 CLI 均免费；核心保护、执行检查、恢复能力保留，详见 [许可边界](licensing.md)。

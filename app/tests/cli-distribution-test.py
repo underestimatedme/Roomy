@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: MPL-2.0
+# SPDX-License-Identifier: GPL-3.0-only
 """Exercise distribution boundaries with real CLI builds and private files."""
 import hashlib
 import json
@@ -23,7 +23,7 @@ class CLIDistributionTests(unittest.TestCase):
         files = packager.source_files()
         for name in files:
             if name.endswith(".swift"):
-                self.assertIn(b"SPDX-License-Identifier: MPL-2.0", packager.read_file(name).splitlines()[0], name)
+                self.assertIn(b"SPDX-License-Identifier: GPL-3.0-only", packager.read_file(name).splitlines()[0], name)
 
 
     def test_source_change_during_compilation_cannot_create_a_valid_receipt(self):
@@ -84,7 +84,7 @@ PY
                              "app/tools/make-scan-fixture.swift", "app/tests/run-reliability.py",
                              "app/tests/reliability-harness-test.py", "app/tests/cli-integration-test.py", "app/tests/cli-distribution-test.py",
                              ".github/workflows/core-reliability.yml",
-                             "LICENSE", "LICENSES/MPL-2.0.txt", "docs/core-readme.md", "docs/licensing.md", "docs/cli.md",
+                             "LICENSE", "LICENSES/GPL-3.0-only.txt", "docs/core-readme.md", "docs/licensing.md", "docs/cli.md",
                              "app/build/roomy"]:
                 destination = repo / relative
                 destination.parent.mkdir(parents=True, exist_ok=True)
@@ -112,7 +112,7 @@ PY
             self.assertEqual(result.returncode, 0, result.stderr)
             manifest = json.loads((output / "manifest.json").read_text())
             self.assertEqual(manifest["cliPrice"], "free")
-            self.assertEqual(manifest["sourceLicense"], "MPL-2.0")
+            self.assertEqual(manifest["sourceLicense"], "GPL-3.0-only")
             for entry in manifest["artifacts"]:
                 artifact = output / entry["file"]
                 self.assertEqual(hashlib.sha256(artifact.read_bytes()).hexdigest(), entry["sha256"])
@@ -170,7 +170,7 @@ PY
             for relative in ["app/tools", "app/Sources/Scanner", "app/cli", "app/build", "LICENSES", "docs"]:
                 (repo / relative).mkdir(parents=True, exist_ok=True)
             for relative in ["app/tools/package-cli.py", "app/tools/build-cli.sh", "app/tools/install-cli.sh",
-                             "LICENSE", "LICENSES/MPL-2.0.txt", "docs/core-readme.md", "docs/cli.md"]:
+                             "LICENSE", "LICENSES/GPL-3.0-only.txt", "docs/core-readme.md", "docs/cli.md"]:
                 shutil.copy2(ROOT / relative, repo / relative)
             shutil.copy2(ROOT / "app/build/roomy", repo / "app/build/roomy")
             shutil.copy2(ROOT / "app/cli/main.swift", repo / "app/cli/main.swift")

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 /// 合并后的一次并行遍历（findAllInCodeRoots）必须和每种标记各走一遍（findInCodeRoots）找到同样的目录

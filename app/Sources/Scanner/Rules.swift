@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 规则库。字段对应规划第四节的模板，口径与 scanner/roomy-scan.py 保持一致。
 //
 // 三级标记 = 可撤销性 × 重建代价 × 时间：

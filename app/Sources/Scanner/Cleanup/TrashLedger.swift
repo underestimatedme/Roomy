@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 进废纸篓不释放空间（同一个 APFS 卷）。这里记下 Roomy 自己移进废纸篓的东西，
 // 让用户过几天确认没问题后，只把这些永久删除——废纸篓里别的东西一概不碰。
 

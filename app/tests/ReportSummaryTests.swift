@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 private func entry(_ id: String, _ size: UInt64, path: String?, tier: CleanupTier, reversible: Bool,

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 扫描核心：用 getattrlistbulk 批量取目录条目的属性。
 //
 // 传统做法是 opendir + 每个文件一次 lstat，每文件两次 syscall。

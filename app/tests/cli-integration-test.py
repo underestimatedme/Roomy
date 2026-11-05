@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: MPL-2.0
+# SPDX-License-Identifier: GPL-3.0-only
 """Exercise the shipped CLI against private generated files; never clean user data."""
 import json
 import os

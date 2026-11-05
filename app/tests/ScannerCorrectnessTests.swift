@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 private struct FixturePath: Codable { let path: String; let logicalSize: UInt64 }

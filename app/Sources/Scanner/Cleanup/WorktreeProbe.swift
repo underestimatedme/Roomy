@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // AI 编程代理每个任务开一个 git worktree，做完合进主干就再没人管。
 // 已合入与可清理分别判断；目录进废纸篓，不 prune，分支保留。
 

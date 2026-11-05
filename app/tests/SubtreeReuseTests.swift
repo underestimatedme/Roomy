@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 /// 完整遍历取用清单统计时量过的子树（MeasuredSubtrees），结果必须和重新读一遍完全相同

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 一键腾出的执行器：按 id 查表 → 执行前复核 → 执行 → 逐项回报 → 写日志。
 // "实际多出"只认磁盘剩余空间的前后差值。
 

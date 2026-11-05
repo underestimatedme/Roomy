@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 规则扫描 + 工具探测 → 一张按大小排序的清单。
 
 import Foundation

@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 深度统计按需执行的并发行为：不请求就不走、两个入口共用一次、旧任务不污染新一代、
 // 不完整的结果不交付、失败能重试。全部用注入的假 walk，不碰真实家目录、不启用后台服务。
 import Foundation

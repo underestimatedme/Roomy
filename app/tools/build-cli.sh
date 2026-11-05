@@ -1,5 +1,5 @@
 #!/bin/bash
-# SPDX-License-Identifier: MPL-2.0
+# SPDX-License-Identifier: GPL-3.0-only
 # Build the complete free CLI without any GUI files, assets, or activation.
 set -euo pipefail
 cd "$(dirname "$0")/.."

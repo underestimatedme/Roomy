@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Foundation
 
 /// usesDirectory 的索引查找必须和逐条命令搜索（scansDirectory）给出同样的结果

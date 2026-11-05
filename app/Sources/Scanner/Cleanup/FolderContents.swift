@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 详情里展开一项：它下面的直接子项各占多少。只给人看，不能单独勾选——清理的安全检查都按整个条目做。
 
 import Foundation

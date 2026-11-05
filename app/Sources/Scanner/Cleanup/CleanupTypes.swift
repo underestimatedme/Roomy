@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 清单的数据模型。CleanupEntry 只给界面看；CleanupAction 只留在 Swift 端，网页永远拿不到。
 
 import CryptoKit

@@ -1,5 +1,5 @@
 #!/bin/bash
-# SPDX-License-Identifier: MPL-2.0
+# SPDX-License-Identifier: GPL-3.0-only
 # Explicitly invoked installer. Never changes shell startup files or uses sudo.
 set -euo pipefail
 task_prefix="${HOME}/.local/bin"

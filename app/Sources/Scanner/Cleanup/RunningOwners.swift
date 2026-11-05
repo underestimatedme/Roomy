@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 正在运行的进程可能还在用某些缓存：删了会让它崩溃或出错，所以这类条目进"不能删"并写明怎么解除。
 
 import Foundation

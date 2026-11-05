@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // Docker 的数据在一个 .raw 镜像里，删文件回收不了，只能让 docker 自己删。
 // 按对象列出：每个卷、每个镜像、每个已停止的容器各一行，执行时只删这一行列出的那个对象，
 // 预览什么就删什么；构建缓存交给 docker builder prune。不再用 docker system prune。

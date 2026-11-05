@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 import Darwin
 import Foundation
 
@@ -45,7 +45,7 @@ Roomy 腾地儿 · 免费 CLI · macOS 14+ · 默认只预览
 执行前核查身份、归属和保护；不提供清空废纸篓的命令，不全盘清空，不自动提权。
 无 --apply 时不清理、不卸载、不恢复。移入废纸篓不等于释放空间。
 旧 --root、--json FILE、--index-root、--index-json 入口仍可使用。
-核心与 CLI 采用 MPL-2.0；匹配源码与许可证随命令行发布包提供。
+核心与 CLI 采用 GPL-3.0-only；匹配源码与许可证随命令行发布包提供。
 """
 
 struct CLIResponse {

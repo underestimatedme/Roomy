@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 常见路径、Git 仓库标记和开发工具工作记录共同确定扫描范围。
 
 import Foundation

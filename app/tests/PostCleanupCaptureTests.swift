@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MPL-2.0
+// SPDX-License-Identifier: GPL-3.0-only
 // 每次实际清理成功都对应一次新的 post-cleanup 采样：即使上一次 cleanup walk 还在跑，
 // 第二次 refresh(.cleanup) 也必须取消替换它，而不是 joined 复用旧采样。
 import Foundation
