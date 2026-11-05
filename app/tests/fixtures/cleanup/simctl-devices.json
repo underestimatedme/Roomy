@@ -1,0 +1,13 @@
+{
+  "devices" : {
+    "com.apple.CoreSimulator.SimRuntime.iOS-26-5" : [
+      { "udid" : "A86E8B12-7CF0-4A69-B453-6DC989371771", "name" : "iPhone 17 Pro", "state" : "Booted",
+        "lastUsedAt" : "2026-10-02T05:12:30Z", "dataPathSize" : 3358904320, "isAvailable" : true },
+      { "udid" : "11111111-2222-3333-4444-555555555555", "name" : "iPhone 15 Pro", "state" : "Shutdown",
+        "lastUsedAt" : "2026-03-01T00:00:00Z", "dataPathSize" : 4100000000, "isAvailable" : true },
+      { "udid" : "66666666-7777-8888-9999-000000000000", "name" : "iPad Air", "state" : "Shutdown",
+        "dataPathSize" : 1000, "isAvailable" : true }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.iOS-17-2" : []
+  }
+}

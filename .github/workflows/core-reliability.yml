@@ -1,0 +1,33 @@
+name: Free core and CLI reliability
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  core:
+    strategy:
+      fail-fast: false
+      matrix:
+        runner: [macos-14, macos-15, macos-26, macos-15-intel]
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generated fixture regression suites
+        run: python3 app/tests/run-reliability.py --core-only
+      - name: Build free CLI
+        run: bash app/tools/build-cli.sh
+      - name: Verify independently rebuildable distribution
+        run: |
+          python3 app/tests/cli-distribution-test.py
+          python3 app/tools/package-cli.py --output app/build/core-distribution
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: core-${{ matrix.runner }}
+          path: |
+            app/build/reliability
+            app/build/core-distribution

@@ -1,0 +1,4 @@
+NAME                        ID              SIZE      MODIFIED
+llama3.1:70b                c0df3564cfe8    39 GB     3 months ago
+qwen2.5-coder:7b            2b0496514337    4.7 GB    2 weeks ago
+nomic-embed-text:latest     0a109f422b47    274 MB    About an hour ago

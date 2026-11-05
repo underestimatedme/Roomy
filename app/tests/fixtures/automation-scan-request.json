@@ -1,0 +1,9 @@
+{
+  "title": "定时扫描",
+  "task": "scan",
+  "days": 7,
+  "repeats": true,
+  "mode": "confirm",
+  "scopeIDs": [],
+  "metric": ""
+}

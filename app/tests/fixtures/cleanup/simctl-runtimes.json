@@ -1,0 +1,8 @@
+{
+  "1184C577-1086-4DCC-BE63-E113336914AB" : { "identifier" : "1184C577-1086-4DCC-BE63-E113336914AB",
+    "runtimeIdentifier" : "com.apple.CoreSimulator.SimRuntime.iOS-26-5", "sizeBytes" : 8494282293, "deletable" : true },
+  "22222222-3333-4444-5555-666666666666" : { "identifier" : "22222222-3333-4444-5555-666666666666",
+    "runtimeIdentifier" : "com.apple.CoreSimulator.SimRuntime.iOS-17-2", "sizeBytes" : 7300000000, "deletable" : true },
+  "33333333-4444-5555-6666-777777777777" : { "identifier" : "33333333-4444-5555-6666-777777777777",
+    "runtimeIdentifier" : "com.apple.CoreSimulator.SimRuntime.iOS-16-4", "sizeBytes" : 6000000000, "deletable" : false }
+}
